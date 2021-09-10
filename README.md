@@ -6,3 +6,5 @@ The script also supports the concatenation of CSS files inside /source/css, so y
 The script also allows the optional compression of JavaScript and CSS, something which can be controlled by simply setting one of the two global variables at the top of the script to true or false.
 
 Later versions of the script will include automatic backups of the deployment folder before it is overwritten by the latest version of the compiled code, and a performance monitor which will report file size reductions as a result of compression and compile time statistics when script execution is complete.
+
+Note: jsmin and csscompressor will need to be installed via pip on your machine for the JavaScript and CSS minification functionality to work.
